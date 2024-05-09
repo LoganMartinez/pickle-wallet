@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		020267532BED169400300B7E /* PickleWalletApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020267522BED169400300B7E /* PickleWalletApp.swift */; };
+		020267552BED169400300B7E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020267542BED169400300B7E /* ContentView.swift */; };
+		020267572BED169400300B7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 020267562BED169400300B7E /* Assets.xcassets */; };
+		0202675A2BED169400300B7E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 020267592BED169400300B7E /* Preview Assets.xcassets */; };
+		020267642BED169500300B7E /* PickleWalletTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020267632BED169500300B7E /* PickleWalletTests.swift */; };
+		0202676E2BED169500300B7E /* PickleWalletUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0202676D2BED169500300B7E /* PickleWalletUITests.swift */; };
+		020267702BED169500300B7E /* PickleWalletUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0202676F2BED169500300B7E /* PickleWalletUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		020267602BED169500300B7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 020267472BED169400300B7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0202674E2BED169400300B7E;
+			remoteInfo = PickleWallet;
+		};
+		0202676A2BED169500300B7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 020267472BED169400300B7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0202674E2BED169400300B7E;
+			remoteInfo = PickleWallet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0202674F2BED169400300B7E /* PickleWallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PickleWallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		020267522BED169400300B7E /* PickleWalletApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickleWalletApp.swift; sourceTree = "<group>"; };
+		020267542BED169400300B7E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		020267562BED169400300B7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		020267592BED169400300B7E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0202675F2BED169500300B7E /* PickleWalletTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PickleWalletTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		020267632BED169500300B7E /* PickleWalletTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickleWalletTests.swift; sourceTree = "<group>"; };
+		020267692BED169500300B7E /* PickleWalletUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PickleWalletUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0202676D2BED169500300B7E /* PickleWalletUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickleWalletUITests.swift; sourceTree = "<group>"; };
+		0202676F2BED169500300B7E /* PickleWalletUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickleWalletUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0202674C2BED169400300B7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0202675C2BED169500300B7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		020267662BED169500300B7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		020267462BED169300300B7E = {
+			isa = PBXGroup;
+			children = (
+				020267512BED169400300B7E /* PickleWallet */,
+				020267622BED169500300B7E /* PickleWalletTests */,
+				0202676C2BED169500300B7E /* PickleWalletUITests */,
+				020267502BED169400300B7E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		020267502BED169400300B7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0202674F2BED169400300B7E /* PickleWallet.app */,
+				0202675F2BED169500300B7E /* PickleWalletTests.xctest */,
+				020267692BED169500300B7E /* PickleWalletUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		020267512BED169400300B7E /* PickleWallet */ = {
+			isa = PBXGroup;
+			children = (
+				020267522BED169400300B7E /* PickleWalletApp.swift */,
+				020267542BED169400300B7E /* ContentView.swift */,
+				020267562BED169400300B7E /* Assets.xcassets */,
+				020267582BED169400300B7E /* Preview Content */,
+			);
+			path = PickleWallet;
+			sourceTree = "<group>";
+		};
+		020267582BED169400300B7E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				020267592BED169400300B7E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		020267622BED169500300B7E /* PickleWalletTests */ = {
+			isa = PBXGroup;
+			children = (
+				020267632BED169500300B7E /* PickleWalletTests.swift */,
+			);
+			path = PickleWalletTests;
+			sourceTree = "<group>";
+		};
+		0202676C2BED169500300B7E /* PickleWalletUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0202676D2BED169500300B7E /* PickleWalletUITests.swift */,
+				0202676F2BED169500300B7E /* PickleWalletUITestsLaunchTests.swift */,
+			);
+			path = PickleWalletUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0202674E2BED169400300B7E /* PickleWallet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 020267732BED169500300B7E /* Build configuration list for PBXNativeTarget "PickleWallet" */;
+			buildPhases = (
+				0202674B2BED169400300B7E /* Sources */,
+				0202674C2BED169400300B7E /* Frameworks */,
+				0202674D2BED169400300B7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PickleWallet;
+			productName = PickleWallet;
+			productReference = 0202674F2BED169400300B7E /* PickleWallet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0202675E2BED169500300B7E /* PickleWalletTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 020267762BED169500300B7E /* Build configuration list for PBXNativeTarget "PickleWalletTests" */;
+			buildPhases = (
+				0202675B2BED169500300B7E /* Sources */,
+				0202675C2BED169500300B7E /* Frameworks */,
+				0202675D2BED169500300B7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				020267612BED169500300B7E /* PBXTargetDependency */,
+			);
+			name = PickleWalletTests;
+			productName = PickleWalletTests;
+			productReference = 0202675F2BED169500300B7E /* PickleWalletTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		020267682BED169500300B7E /* PickleWalletUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 020267792BED169500300B7E /* Build configuration list for PBXNativeTarget "PickleWalletUITests" */;
+			buildPhases = (
+				020267652BED169500300B7E /* Sources */,
+				020267662BED169500300B7E /* Frameworks */,
+				020267672BED169500300B7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0202676B2BED169500300B7E /* PBXTargetDependency */,
+			);
+			name = PickleWalletUITests;
+			productName = PickleWalletUITests;
+			productReference = 020267692BED169500300B7E /* PickleWalletUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		020267472BED169400300B7E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					0202674E2BED169400300B7E = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					0202675E2BED169500300B7E = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 0202674E2BED169400300B7E;
+					};
+					020267682BED169500300B7E = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 0202674E2BED169400300B7E;
+					};
+				};
+			};
+			buildConfigurationList = 0202674A2BED169400300B7E /* Build configuration list for PBXProject "PickleWallet" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 020267462BED169300300B7E;
+			productRefGroup = 020267502BED169400300B7E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0202674E2BED169400300B7E /* PickleWallet */,
+				0202675E2BED169500300B7E /* PickleWalletTests */,
+				020267682BED169500300B7E /* PickleWalletUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0202674D2BED169400300B7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0202675A2BED169400300B7E /* Preview Assets.xcassets in Resources */,
+				020267572BED169400300B7E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0202675D2BED169500300B7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		020267672BED169500300B7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0202674B2BED169400300B7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				020267552BED169400300B7E /* ContentView.swift in Sources */,
+				020267532BED169400300B7E /* PickleWalletApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0202675B2BED169500300B7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				020267642BED169500300B7E /* PickleWalletTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		020267652BED169500300B7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0202676E2BED169500300B7E /* PickleWalletUITests.swift in Sources */,
+				020267702BED169500300B7E /* PickleWalletUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		020267612BED169500300B7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0202674E2BED169400300B7E /* PickleWallet */;
+			targetProxy = 020267602BED169500300B7E /* PBXContainerItemProxy */;
+		};
+		0202676B2BED169500300B7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0202674E2BED169400300B7E /* PickleWallet */;
+			targetProxy = 0202676A2BED169500300B7E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		020267712BED169500300B7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		020267722BED169500300B7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		020267742BED169500300B7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PickleWallet/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = LoganMartinez.PickleWallet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		020267752BED169500300B7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PickleWallet/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = LoganMartinez.PickleWallet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		020267772BED169500300B7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = LoganMartinez.PickleWalletTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PickleWallet.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PickleWallet";
+			};
+			name = Debug;
+		};
+		020267782BED169500300B7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = LoganMartinez.PickleWalletTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PickleWallet.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PickleWallet";
+			};
+			name = Release;
+		};
+		0202677A2BED169500300B7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = LoganMartinez.PickleWalletUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PickleWallet;
+			};
+			name = Debug;
+		};
+		0202677B2BED169500300B7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = LoganMartinez.PickleWalletUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PickleWallet;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0202674A2BED169400300B7E /* Build configuration list for PBXProject "PickleWallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				020267712BED169500300B7E /* Debug */,
+				020267722BED169500300B7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		020267732BED169500300B7E /* Build configuration list for PBXNativeTarget "PickleWallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				020267742BED169500300B7E /* Debug */,
+				020267752BED169500300B7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		020267762BED169500300B7E /* Build configuration list for PBXNativeTarget "PickleWalletTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				020267772BED169500300B7E /* Debug */,
+				020267782BED169500300B7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		020267792BED169500300B7E /* Build configuration list for PBXNativeTarget "PickleWalletUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0202677A2BED169500300B7E /* Debug */,
+				0202677B2BED169500300B7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 020267472BED169400300B7E /* Project object */;
+}
